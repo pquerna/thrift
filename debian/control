@@ -3,8 +3,8 @@ Section: devel
 Priority: extra
 Build-Depends: debhelper (>= 5), build-essential, mono-gmcs, python-dev, ant,
     libmono-dev, erlang-base, ruby1.8-dev, autoconf, python-support, automake,
-    pkg-config, libtool, bison, flex, libboost-dev, python-all, python-all-dev,
-    python-all-dbg, ruby, openjdk-6-jdk | java-sdk, libcommons-lang-java,
+    pkg-config, libtool, bison, flex, libboost-dev, ruby, 
+    openjdk-6-jdk | java-sdk, python-dbg,
     libboost-test-dev, libevent-dev, perl (>= 5.8.0-7)
 Maintainer: Esteve Fernandez <esteve@fluidinfo.com>
 Standards-Version: 3.7.2
@@ -79,7 +79,7 @@ Package: libthrift-java
 Architecture: all
 Section: libs
 Depends: java-gcj-compat | java1-runtime | java2-runtime, ${misc:Depends}
-Recommends: libcommons-lang-java
+Recommends: libcommons-lang-java, liblog4j1.2-java
 Description: Java bindings for Thrift
  Thrift is a software framework for scalable cross-language services
  development. It combines a software stack with a code generation engine to
