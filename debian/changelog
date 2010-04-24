@@ -1,5 +1,5 @@
-thrift (0.2.0-ck0); urgency=low
+thrift (0.2.0-ck0) hardy; urgency=low
 
-  * Initial release.
+  * Initial release. 
 
- -- Esteve Fernandez <esteve@fluidinfo.com>  Thu, 15 Jan 2009 11:34:24 +0100
+ -- paul querna <pquerna@apache.org>  Sat, 24 Apr 2010 12:57:59 -0700
