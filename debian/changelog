@@ -1,4 +1,4 @@
-thrift (0.2008.12.30~8.04) hardy; urgency=low
+thrift (0.2.0-ck0); urgency=low
 
   * Initial release.
 
