@@ -1,0 +1,25 @@
+Source: fb303
+Section: devel
+Priority: extra
+Build-Depends: thrift-compiler, python-thrift, libthrift-dev
+Maintainer: Paul Querna <pquerna@apache.org>
+Standards-Version: 3.7.2
+XS-Python-Version: 2.6
+
+Package: libfb303-dev
+Architecture: any
+Section: libdevel
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: fb303 C++ library (development headers)
+ .
+ This package contains the development libraries required for writing C++
+ applications.
+
+Package: python-fb303
+Architecture: any
+Section: python
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Provides: ${python:Provides}
+Description: Python bindings for fb303
+ .
+ This package provides the thrift interfaces for fb303 in Python
